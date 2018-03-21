@@ -1,10 +1,11 @@
 import React, { Component, Fragment } from "react";
 import { Auth } from "aws-amplify";
-import { Link, withRouter } from "react-router-dom";
+import { Link, withRouter,BrowserRouter } from "react-router-dom";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Routes from "./Routes";
 import "./App.css";
+
 
 export class App extends Component {
   constructor(props) {
@@ -51,32 +52,34 @@ export class App extends Component {
 
     return (
       !this.state.isAuthenticating &&
-      <div className="App container">
-        <Navbar fluid collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <Link to="/">Scratch</Link>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav pullRight>
-              {this.state.isAuthenticated
-                ? <NavItem onClick={this.handleLogout}>Logout</NavItem>
-                : <Fragment>
-                    <LinkContainer to="/signup">
-                      <NavItem>Signup</NavItem>
-                    </LinkContainer>
-                    <LinkContainer to="/login">
-                      <NavItem>Login</NavItem>
-                    </LinkContainer>
-                  </Fragment>
-              }
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        <Routes childProps={childProps} />
-      </div>
+          <BrowserRouter basename="cloud-ams-public">
+              <div className="App container">
+                <Navbar fluid collapseOnSelect>
+                  <Navbar.Header>
+                    <Navbar.Brand>
+                      <Link to="/">Scratch</Link>
+                    </Navbar.Brand>
+                    <Navbar.Toggle />
+                  </Navbar.Header>
+                  <Navbar.Collapse>
+                    <Nav pullRight>
+                      {this.state.isAuthenticated
+                        ? <NavItem onClick={this.handleLogout}>Logout</NavItem>
+                        : <Fragment>
+                            <LinkContainer to="/signup">
+                              <NavItem>Signup</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/login">
+                              <NavItem>Login</NavItem>
+                            </LinkContainer>
+                          </Fragment>
+                      }
+                    </Nav>
+                  </Navbar.Collapse>
+                </Navbar>
+                <Routes childProps={childProps} />
+              </div>
+          </BrowserRouter>
     );
   }
 }
