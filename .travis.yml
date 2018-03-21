@@ -5,10 +5,6 @@ cache:
   yarn: true
   directories:
   - node_modules
-script:
-  - mkdir -p build/css
-  - cp index.html build/
-  - ls build
 before_deploy:
   - cd build
 deploy:
