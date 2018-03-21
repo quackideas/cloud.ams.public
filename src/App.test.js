@@ -9,7 +9,7 @@ import App from './App';
 // });
 
 it('renders without crashing', () => {
-  const one = 1;
+  let one = 1;
 
   one = 1;
 });
