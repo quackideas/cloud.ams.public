@@ -7,3 +7,9 @@ import App from './App';
 //   ReactDOM.render(<App />, div);
 //   ReactDOM.unmountComponentAtNode(div);
 // });
+
+it('renders without crashing', () => {
+  const one = 1;
+
+  one = 1;
+});
