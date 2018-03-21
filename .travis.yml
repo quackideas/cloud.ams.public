@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- node
+cache:
+  yarn: true
+  directories:
+  - node_modules
+script:
+  - mkdir -p build/css
+  - cp index.html build/
+  - ls build
+before_deploy:
+  - cd build
+deploy:
+  provider: s3
+  bucket: "cloud-ams-public"
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  skip_cleanup: true
+  acl: public_read
+branches:
+  only:
+  - master
+notifications:
+  email:
+    recipients:
+      - qnguyen@sujemma.com
