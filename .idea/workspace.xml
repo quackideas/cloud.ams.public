@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02874b8a-3164-48f9-9b79-33aff8f00fec" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.7e905fd1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.7e905fd1.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.js" afterPath="$PROJECT_DIR$/src/config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +39,27 @@
         <entry file="file://$PROJECT_DIR$/build/service-worker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2580" lean-forward="false" selection-start-line="0" selection-start-column="2575" selection-end-line="0" selection-end-column="2580" />
+              <caret line="0" column="2674" lean-forward="false" selection-start-line="0" selection-start-column="2674" selection-end-line="0" selection-end-column="2674" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="safari-pinned-tab.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/safari-pinned-tab.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -92,33 +117,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.webmanifest" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/site.webmanifest">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="browserconfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/browserconfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="asset-manifest.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1521674551000" expanded="true" signature="0:196" ph="{&quot;main.css&quot;: &quot;static/css/main.6b63f731.css&quot;...}" />
+                <marker date="1521685258000" expanded="true" signature="0:196" ph="{&quot;main.css&quot;: &quot;static/css/main.6b63f731.css&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -143,7 +148,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/build/manifest.json" />
@@ -151,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/build/service-worker.js" />
       </list>
     </option>
@@ -328,12 +333,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521663239290</updated>
-      <workItem from="1521663244283" duration="5573000" />
+      <workItem from="1521663244283" duration="6218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5573000" />
+    <option name="totallyTimeSpent" value="6218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -373,14 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -432,7 +429,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521674551000" expanded="true" signature="0:196" ph="{&quot;main.css&quot;: &quot;static/css/main.6b63f731.css&quot;...}" />
+            <marker date="1521685258000" expanded="true" signature="0:196" ph="{&quot;main.css&quot;: &quot;static/css/main.6b63f731.css&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -498,6 +495,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
@@ -506,10 +511,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/safari-pinned-tab.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2580" lean-forward="false" selection-start-line="0" selection-start-column="2575" selection-end-line="0" selection-end-column="2580" />
+          <caret line="0" column="2674" lean-forward="false" selection-start-line="0" selection-start-column="2674" selection-end-line="0" selection-end-column="2674" />
           <folding />
         </state>
       </provider>
